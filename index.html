@@ -20,11 +20,12 @@
         <h3>Author: Greyson Wrobel</h3>
         <p>All you need to know to make the most authentic, traditional Danish blackbread (rye bread) there is! Follow these simple steps and recipe which has been passed down through generations of a Danish family to warm your home for the winter.</p>
         <p>All materials linked at the bottom of the page. Danish translation provided above. </p>
-        <div class="container">
-        <button id="servings1" onclick="servings01()" class="servings1">1 Serving</button>
-        <button id="servings2" onclick="servings02()" class="servings2">2 Servings</button>
 
+        <div class="container">
+        <button onclick="servings01()" class="servings1">1 Serving</button>
+        <button onclick="servings02()" class="servings2">2 Servings</button>
         </div>
+
       </div>
       <div>
         <img class="img1" src="https://www.idun-industri.no/wp-content/uploads/sites/67/2021/11/Rugbrod-med-frukt-og-notter.jpg">
@@ -35,12 +36,12 @@
       <div>
         <h4>Ingredients</h4>
         <li>Ryebread starter (1 jar)</li>
-        <li>Lukewarm water (1750mL)</li>
-        <li>Salt (3TBSP)</li>
-        <li>Rye flour (1000G)</li>
-        <li>All-purpose flour (750G)</li>
-        <li>Lukewarm water (500mL)</li>
-        <li>Rye kernels (1000g)</li>
+        <li id="water1">Lukewarm water (1750mL)</li>
+        <li id="salt">Salt (3TBSP)</li>
+        <li id="ryeflour">Rye flour (1000g)</li>
+        <li id="whiteflour">All-purpose flour (750g)</li>
+        <li id="water2">Lukewarm water (500mL)</li>
+        <li id="ryekernels">Rye kernels (1000g)</li>
       </div>
 
       <div>
@@ -59,6 +60,34 @@
           <li class="sigh">Separate the dough into two baking forms and cover with tinfoil. Let sit for another day.</li>
           <li class="sigh">Finally, bake the bread for two hours at 392 degrees F. Opptionally, set the oven to broil for no more than a minute to give the bread an extra crunch on top. Enjoy!</li>
         </ol>
+      </div>
+    </div>
+    <h4 class="sua">Comments</h4>
+    <div>
+      <h3>Amia</h3>
+      <p>I made this for my girlfriend and she loved it!!!</p>
+      <h3>dkos9158</h3>
+      <p>Accidentally left it on broil for too long and burnt it :( my boyfriend still ate it tho and liked it!</p>
+      <div>
+        <h3 id="hsy"></h3>
+        <p id="yjh"></p>
+        <br>
+        <div class="ysa">
+        <h3>Leave a comment!</h3>
+        <input class="mizi" id="kdj" type="text" oninput="commenting()">
+        <h3>Leave a rating!</h3>
+        <select class="ok" id="jhw" onchange="rating()">
+          <option value="1">1 star
+          <option value="2">2 stars
+          <option value="3">3 stars
+          <option value="4">4 stars
+          <option value="5">5 stars
+        </select>
+        <p id="lhs"></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        </div>
       </div>
     </div>
   </body>
