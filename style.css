@@ -67,7 +67,7 @@ p {
 li {
   font-family: "Trebuchet MS";
   margin-left: 60px;
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
 }
 h6 {
@@ -81,7 +81,7 @@ h6 {
   height: 510px;
   justify-content: center;
   margin-top: 35px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .miku {
   margin-left: 0px;
@@ -89,6 +89,7 @@ h6 {
 .sigh {
   margin-left: 0px;
   margin-right: 10px;
+  font-size: 20px;
 }
 .servings1 {
   display: flex;
@@ -106,4 +107,20 @@ h6 {
   color: black;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.sua {
+  margin-left: 50px;
+
+}
+.mizi {
+  margin-left: 60px;
+
+}
+.ysa {
+  display: flex;
+  gap: 0px;
+}
+.ok {
+  font-family: "COPPERPLATE";
+  font-style: bold;
 }
